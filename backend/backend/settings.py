@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'webpack_loader',
     'corsheaders',
-    'todoapp',
+    'smarthomeapp',
 ]
 
 WEBPACK_LOADER = {
