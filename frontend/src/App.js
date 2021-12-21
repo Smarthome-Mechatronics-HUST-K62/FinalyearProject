@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {render} from "react-dom";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from "./Components/HomePage";
-import SigIn from "./Components/SignIn"
+import SignIn from "./Components/SignIn"
 import SignUp from "./Components/SignUp"
 
 export class App extends Component {
@@ -16,7 +16,7 @@ export class App extends Component {
                 <BrowserRouter>
                   <Routes>
                     <Route exact path="app" element={<HomePage/>}/>
-                    <Route path="app/signin" element={<SigIn/>}/>
+                    <Route path="app/signin" element={<SignIn/>}/>
                     <Route path="app/signup" element={<SignUp/>}/>
                   </Routes>
                 </BrowserRouter>
