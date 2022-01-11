@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
+import Navigationbar from '../Details/NavigationBar/Navigationbar'
+import Sidebar from '../Details/Sidebar/Sidebar'
 
 export class SignUp extends Component {
     render() {
         return (
             <div>
-                <h3>Sign Up Page</h3>
+                <Navigationbar />
+                <div>
+                    <Sidebar />
+                </div>
             </div>
         )
     }
