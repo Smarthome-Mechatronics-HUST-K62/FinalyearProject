@@ -3,6 +3,33 @@
     margin-top: 10px;
 }
 
+.camera_manager{
+    display: flex;
+}
+
+.tracking_info{
+    margin-left : 30px;
+}
+
+.tracking_info .table-info{
+    margin-top : 20px;
+    text-align: center;
+}
+
+.tracking_info .stop_btn{
+    margin-left: 20px;
+}
+
+.tracking_info .my-custom-scrollbar {
+    position: relative;
+    max-height: 650px;
+    overflow: auto;
+}
+.tracking_info .table-wrapper-scroll-y {
+    display: block;
+}
+
+
 .home3{
     display: flex;
     flex-direction: row;
