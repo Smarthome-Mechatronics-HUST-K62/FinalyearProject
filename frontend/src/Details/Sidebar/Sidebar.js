@@ -26,14 +26,6 @@ function Sidebar() {
                                 Home
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
-                            <Timeline className="sidebarIcon" />
-                            Environment Statistics
-                        </li>
-                        <li className="sidebarListItem">
-                            <TrendingUp className="sidebarIcon" />
-                            Graphs
-                        </li>
                     </ul>
                 </div>
                 <div className="sidebarMenu">
@@ -51,14 +43,6 @@ function Sidebar() {
                                 Sensors / Devices
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
-                            <AttachMoney className="sidebarIcon" />
-                            Projects 
-                        </li>
-                        <li className="sidebarListItem">
-                            <BarChart className="sidebarIcon" />
-                            Auto Settings 
-                        </li>
                     </ul>
                 </div>
             </div>

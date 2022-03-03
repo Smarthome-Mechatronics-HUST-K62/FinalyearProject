@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import React, { Component } from 'react'
 import Navigationbar from '../Details/NavigationBar/Navigationbar'
-import Sidebar from '../Details/Sidebar/Sidebar'
+import Sidebar from '../Details/Sidebar/Sidebar.js'
 import './Homepage.css'
 import { DataGrid } from '@mui/x-data-grid';
 const columns = [
