@@ -8,7 +8,9 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { FlashlightOff } from '@mui/icons-material';
 import { FlashlightOn } from '@mui/icons-material';
-import { Switch } from '@mui/material';
+import { requirePropFactory, Switch } from '@mui/material';
+import livingroom from '../../images/livingroom.png';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 export default function MediaControlCard() {
     const theme = useTheme();
@@ -36,9 +38,10 @@ export default function MediaControlCard() {
         <CardMedia
           component="img"
           sx={{ width: 151 }}
-          image="../../images/livingroom.png"
+          image={require('../../images/livingroom.png')}
           alt="Test"
         />
+        <FontAwesomeIcon icon="fa-solid fa-couch" />
       </Card>
     );
 }
